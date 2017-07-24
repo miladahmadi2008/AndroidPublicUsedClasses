@@ -78,10 +78,6 @@ public class ReadCallLog
                 callLog.set_callDuration(callDuration);
                 list.add(callLog);
                 id++;
-//                stringBuffer.append("\nPhone Number:--- " + phNumber + " \nCall Type:--- "
-//                        + dir + " \nCall Date:--- " + callDayTime
-//                        + " \nCall duration in sec :--- " + callDuration);
-//                stringBuffer.append("\n----------------------------------");
             }
         }
         cursor.close();

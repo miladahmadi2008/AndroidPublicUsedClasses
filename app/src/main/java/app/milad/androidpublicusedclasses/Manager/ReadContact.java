@@ -71,14 +71,6 @@ public class ReadContact
         ContactModel nameContact = null;
         for (ContactModel contactModel : listContact)
         {
-//            if (contactModel.mobileNumber.equals(numberPhone))
-//            {
-//                return contactModel.name;
-//            }
-//            else if (contactModel.mobileNumber.equals(numberPhone.replace("+98", "0")))
-//            {
-//                return contactModel.name;
-//            }
           if(  PhoneNumberUtils.compare(contactModel.mobileNumber,numberPhone))
           {
               return contactModel.name;

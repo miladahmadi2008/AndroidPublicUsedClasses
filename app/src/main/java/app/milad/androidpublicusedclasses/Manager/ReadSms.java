@@ -119,9 +119,7 @@ public class ReadSms
                 cursor.moveToNext();
             }
         }
-        // else {
-        // throw new RuntimeException("You have no SMS");
-        // }
+
         cursor.close();
 
         return lstSms;
